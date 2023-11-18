@@ -14,7 +14,7 @@ import { fadeIn } from "variants";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col mx-5 px-9 justify-around items-center text-white">
+    <div className="flex flex-col mx-5 px-9 justify-around items-center text-white h-[90vh]">
       <motion.h1
         variants={fadeIn("down", 0.4)}
         initial="hidden"

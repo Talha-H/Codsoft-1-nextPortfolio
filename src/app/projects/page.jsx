@@ -7,7 +7,7 @@ import { fadeIn } from "variants";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col gap-8 text-white items-center justify-center mb-7">
+    <div className="flex flex-col gap-8 text-white items-center justify-center mb-7 h-max">
       <motion.h1
         variants={fadeIn("down", 0.4)}
         initial="hidden"

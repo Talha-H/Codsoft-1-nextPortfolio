@@ -6,7 +6,7 @@ import { fadeIn } from "variants";
 
 const About = () => {
   return (
-    <div className="flex mx-5 px-9 justify-around items-center">
+    <div className="flex mx-5 px-9 justify-around items-center h-[90vh]">
       <motion.div
         variants={fadeIn("right", 0.4)}
         initial="hidden"
