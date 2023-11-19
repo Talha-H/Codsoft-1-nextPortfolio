@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./Components/Navbar";
 import TopLeftImage from "./Components/TopLeftImg";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
